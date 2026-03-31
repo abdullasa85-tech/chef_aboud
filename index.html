@@ -342,6 +342,9 @@
     .btn-fb   .btn-icon { background: linear-gradient(135deg,#1877f2,#0a4fa0); }
     .btn-tt   .btn-icon { background: linear-gradient(135deg,#000,#ee1d52); }
     .btn-map  .btn-icon { background: linear-gradient(135deg,#4285f4,#34a853); }
+    .btn-book .btn-icon { background: linear-gradient(135deg,#c9a84c,#8b6914); }
+    .btn-book::before  { border-color: rgba(201,168,76,.45) !important; }
+    .btn-book .btn-label { color: #f5e09a; }
 
     /* staggered animation */
     .link-btn:nth-child(1) { animation: fadeUp .8s .55s cubic-bezier(.16,1,.3,1) both; }
@@ -349,6 +352,7 @@
     .link-btn:nth-child(3) { animation: fadeUp .8s .75s cubic-bezier(.16,1,.3,1) both; }
     .link-btn:nth-child(4) { animation: fadeUp .8s .85s cubic-bezier(.16,1,.3,1) both; }
     .link-btn:nth-child(5) { animation: fadeUp .8s .95s cubic-bezier(.16,1,.3,1) both; }
+    .link-btn:nth-child(6) { animation: fadeUp .8s 1.05s cubic-bezier(.16,1,.3,1) both; }
 
     /* ── Bottom ornament ── */
     .footer-ornament {
@@ -549,6 +553,19 @@
       <div class="btn-text">
         <span class="btn-label">TikTok</span>
         <span class="btn-desc">فيديوهات الطبخ الحصرية</span>
+      </div>
+      <span class="btn-arrow">‹</span>
+    </a>
+
+    <!-- Buffet Booking -->
+    <a class="link-btn btn-book" href="https://whatsform.com/grbgom" target="_blank" rel="noopener">
+      <div class="shimmer"></div>
+      <div class="btn-icon">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="white"><path d="M17 3a1 1 0 0 1 .993.883L18 4v1h1a3 3 0 0 1 2.995 2.824L22 8v10a3 3 0 0 1-2.824 2.995L19 21H5a3 3 0 0 1-2.995-2.824L2 18V8a3 3 0 0 1 2.824-2.995L5 5h1V4a1 1 0 0 1 1.993-.117L8 4v1h8V4a1 1 0 0 1 1-1zm2 6H5v9h14v-9zm-4 4a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm-3 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm-3 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm6-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm-3 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm-3 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg>
+      </div>
+      <div class="btn-text">
+        <span class="btn-label">احجز بوفيه الأحد</span>
+        <span class="btn-desc">Sonntags Buffet · Jetzt reservieren</span>
       </div>
       <span class="btn-arrow">‹</span>
     </a>
